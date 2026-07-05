@@ -1,0 +1,25 @@
+{
+  "name": "genai-js",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JiveeteshMourya/genai-js-cohort#readme",
+  "bugs": {
+    "url": "https://github.com/JiveeteshMourya/genai-js-cohort/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiveeteshMourya/genai-js-cohort.git"
+  },
+  "license": "ISC",
+  "author": "Jiveetesh Mourya",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^6.45.0",
+    "tiktoken": "^1.0.22"
+  }
+}
