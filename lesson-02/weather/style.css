@@ -1,0 +1,10 @@
+.weather-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+.city {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
