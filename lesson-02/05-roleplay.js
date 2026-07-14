@@ -96,6 +96,7 @@ async function main(prompt = "") {
   MESSAGES_DB.push({ role: "user", content: prompt });
 
   while (true) {
+    // this .completions api is depricated, now we use .responses api
     const result = await client.chat.completions.create({
       model: "gpt-5.4",
       messages: MESSAGES_DB,
