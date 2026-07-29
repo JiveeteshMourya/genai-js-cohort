@@ -1,0 +1,24 @@
+{
+  "name": "lesson-05",
+  "version": "1.0.0",
+  "description": "Advanced RAG: PDF upload + async indexing with Qdrant & BullMQ",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "worker": "node src/worker.js",
+    "services:up": "docker compose up -d",
+    "services:down": "docker compose down"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.18.0",
+    "bullmq": "^5.81.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ioredis": "^5.11.1",
+    "multer": "^2.2.0",
+    "openai": "^7.1.0",
+    "pdf-parse": "^2.4.5"
+  }
+}
