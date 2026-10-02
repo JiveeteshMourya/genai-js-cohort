@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "lesson-08-mcp-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["J:/Jivee/Codes/GenAI JS/lesson-08/index.js"]
+    },
+    "lesson-08-mcp-server2":{
+      "url": "http://localhost:3000/mcp",
+    },
+  }
+}
