@@ -1,0 +1,7 @@
+{
+    "mcpServers": {
+        "servername": {
+            "url": "URL of the MCP Server"
+        }
+    }
+}
